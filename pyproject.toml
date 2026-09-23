@@ -33,8 +33,5 @@ exclude = [".venv"]
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 
-[tool.pytest.ini_options]
-filterwarnings = ["ignore::DeprecationWarning"]
-
 [project.scripts]
 run = "agent_harness.scripts.run:main"
